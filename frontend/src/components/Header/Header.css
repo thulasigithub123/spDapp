@@ -1,0 +1,58 @@
+/* Add this CSS to Header.css */
+body{
+  color:rgb(193, 70, 51);
+} 
+  .header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(0, 0, 0);
+  padding: 15px 0;
+  display: flex; /* Display as a flex container */
+  justify-content: space-between; /* Position logo and buttons on either end */
+  align-items: center; /* Align items vertically */
+ 
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly; /* To evenly spread the links with space */
+  align-items: center;
+  width: 100%; /* To ensure the links occupy the full width of the header */
+}
+
+/* Add space between the buttons */
+.navbar-nav .nav-link {
+  margin: 0 10px;
+}
+
+.navbar-toggler {
+  border-color: rgb(199, 27, 27);
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.logo_image {
+  width:250;
+  height: 100px;
+  border-radius: 20%;
+}
+
+/* Buttons and profile button styles */
+.home_button,
+.admin_button,
+.user_button,
+.profile_button {
+  font-size:large;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(180deg, #B4A4F3 0%, rgba(96, 60, 242, 0.00) 100%);
+  width: 174px;
+  height: 65px;
+  flex-shrink: 0;
+  border-radius: 34px;
+  border: 1px solid;
+}  
+.profile_button {
+  background: linear-gradient(180deg, #00ff04 0%, rgba(96, 60, 242, 0.00) 100%);
+}

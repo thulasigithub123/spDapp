@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Thulasi\\test\\spDApp\\contracts\\SoftwareMarketPlace.sol": {
+      "lastModificationDate": 1694269020472,
+      "contentHash": "252da28308dd44932b8dc3b6d8abf562",
+      "sourceName": "contracts/SoftwareMarketPlace.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "SoftwareMarketPlace"
+      ]
+    }
+  }
+}

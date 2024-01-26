@@ -1,0 +1,11 @@
+/* Add this CSS to Footer.css */
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 15px 0; 
+}
+
+.footer-content {
+  text-align: center;
+}
+ 
